@@ -23,7 +23,7 @@ export default class MapScreen extends Component {
     
     constructor(props){
         super(props);
-        this.rootRef = firebase.database().ref('License-Plate').child(this.props.navigation.state.params.license);
+        this.rootRef = firebase.database().ref('Realtime').child(this.props.navigation.state.params.license);
         this.state ={
             Temperature_L: 0,
             Humidity_L: 0,

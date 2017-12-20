@@ -18,7 +18,7 @@ import FirebaseConfig from '../FirebaseConfig';
 import MapScreen from '../MapTrack/MapScreen';
 import background from '../../img/poly-background.jpg';
 
-const itemsRef = firebase.database().ref('License-Plate');
+const itemsRef = firebase.database().ref('Realtime');
 const { width, height } = Dimensions.get("window");
 
 export default class HomeScreen extends Component {

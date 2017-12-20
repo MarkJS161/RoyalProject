@@ -1,11 +1,11 @@
 import firebase from 'firebase';
 
 const config = {
-    apiKey: "AIzaSyAF5rmIKslVGKNEbCOIjxj-L9RWMKwtLWQ",
-    authDomain: "royalapp-c2210.firebaseapp.com",
-    databaseURL: "https://royalapp-c2210.firebaseio.com",
-    projectId: "royalapp-c2210",
-    storageBucket: "royalapp-c2210.appspot.com",
-    messagingSenderId: "183513441401"
+    apiKey: "AIzaSyDNmprpHbPcqUbA15HtZykW3NuQK7CTnVg",
+    authDomain: "realtime-b3259.firebaseapp.com",
+    databaseURL: "https://realtime-b3259.firebaseio.com",
+    projectId: "realtime-b3259",
+    storageBucket: "realtime-b3259.appspot.com",
+    messagingSenderId: "15184956929"
 };
 firebase.initializeApp(config);
